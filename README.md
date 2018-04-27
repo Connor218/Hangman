@@ -17,5 +17,5 @@
   * CSS
   * Organization
 
-#### Authores
+#### Author
   * Connor Barnett
