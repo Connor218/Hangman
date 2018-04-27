@@ -1,7 +1,7 @@
 # Hangman
 
-### What it does
-This takes in key presses and tells you if you guessed the correct word. You have a certain amount of attempts.
+### Content
+..*How does this look?
 
 ### Why create this
 This was a good test of JavaScript and actually learning some of the more complexe functions of JS. 
