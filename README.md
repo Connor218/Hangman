@@ -1,10 +1,21 @@
 # Hangman
 
-### Content
-  * How does this look?
+## Function
+  * Guess Random Word program
 
-### Why create this
-This was a good test of JavaScript and actually learning some of the more complexe functions of JS. 
+### Content
+  * Hangman Game
+  * HTML
+  * JavaScript
+
+### Knowledge
+  * Learn .Onkey
+  * Learn for Loop's
+  * If statements
 
 ### Improvement 
-I could add some CSS
+  * CSS
+  * Organization
+
+#### Authores
+  * Connor Barnett
