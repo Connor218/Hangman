@@ -6,14 +6,12 @@
   <title>Hangman</title>
 
 
-<link href="assets/css/style.css" rel="stylesheet">
-
 </head>
 <body>
 
 <div id="container">
 	WORD: <span id="theWord"></span><br>
-	LETTSE: <span id="letterBlanks"></span><br>
+	LETTERS: <span id="letterBlanks"></span><br>
 	WINS: <span id="winTotal"></span><br>
 	LOSSES: <span id="lossCount"></span><br>
 	LIVES LEFT: <span id="user-lives">8</span><br>
@@ -21,7 +19,7 @@
 
 </div>
 <script>
-var words =["jump", "campus", "donald", "coding", "easy", "extremely", "dictionary"]
+var words =["awesome", "class", "perfect", "coding", "easy", "extremely", "dictionary"]
 var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
         'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
         't', 'u', 'v', 'w', 'x', 'y', 'z'];
@@ -64,7 +62,7 @@ function inititalizGame(){
 	livesLeft = 8;
 	lettersGuessed=[];
 	letterBlanks=[];
-	randomword = words [Math.floor ((Math.random(), words.length))];
+	randomWord = words[Math.floor(Math.random() * words.length)];
 	for (var i=0; i < randomWord.length; i++){
 		letterBlanks.push("_");
 	}
@@ -86,7 +84,7 @@ document.onkeyup = function(event) {
 		document.getElementById('theWord').innerHTML += userGuess;
 		document.getElementById('lettersGuessed').innerHTML += userGuess;
 		correct = correct + 1;
-		if (correct == 6) {
+		if (correct === 6) {
     		alert("YOU WON");
     		inititalizGame();
     	}
