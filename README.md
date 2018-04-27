@@ -1,6 +1,6 @@
 # Hangman
 
-## Function
+### Function
   * Guess Random Word program
 
 ### Content
